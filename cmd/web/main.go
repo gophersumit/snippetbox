@@ -52,7 +52,7 @@ func Start() {
 		},
 	}
 
-	infoLog.Printf("Starting server on port %s", *addr)
+	infoLog.Printf("Starting server on port in Azure Container Service %s", *addr)
 
 	server := &http.Server{
 		Addr:     *addr,
