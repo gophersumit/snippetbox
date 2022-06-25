@@ -13,10 +13,10 @@ import (
 )
 
 var (
-	host     = os.Getenv("host")
-	database = os.Getenv("database")
-	user     = os.Getenv("user")
-	password = os.Getenv("password")
+	host     = "snippetbox-db.mysql.database.azure.com"
+	database = "snippetbox"
+	user     = "snpadmin"
+	password = "Random@12345"
 )
 
 type application struct {
